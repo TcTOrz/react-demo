@@ -1,0 +1,35 @@
+@import '~antd/dist/antd.less';
+
+@import '~antd/lib/style/themes/default.less';
+
+.App {
+  background-color: @layout-body-background;
+  min-height: 100vh;
+}
+
+.App-header {
+  background-color: @layout-header-background;
+  color: @text-color-inverse;
+  font-size: @font-size-lg;
+  position: sticky;
+  top: 0;
+}
+
+.App-sider {
+  overflow: hidden;
+  height: calc(100vh - @layout-header-height);
+  background-color: @white;
+  &:hover{
+    overflow: auto;
+  }
+}
+
+.App-content {
+  overflow: hidden;
+  height: calc(100vh - @layout-header-height);
+  background-color: @layout-body-background;
+  // margin: @margin-lg;
+  &:hover{
+    overflow: auto;
+  }
+}
