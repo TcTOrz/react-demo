@@ -1,7 +1,7 @@
 /*
  * @Author: Li Jian
  * @Date: 2021-02-23 09:23:16
- * @LastEditTime: 2021-02-25 10:45:55
+ * @LastEditTime: 2021-02-25 11:24:51
  * @LastEditors: Li Jian
  */
 import './App.less';
@@ -18,6 +18,7 @@ import SiderView from './views/Sider.jsx';
 import Home from './views/Home.jsx';
 import About from './views/About.jsx';
 import Dashboard from './views/Dashboard.jsx';
+import Echarts from './views/Echarts.jsx';
 
 const { Header, Content, Sider } = Layout;
 
@@ -56,6 +57,9 @@ class App extends React.Component {
                 </Route>
                 <Route path="/dashboard">
                   <Dashboard />
+                </Route>
+                <Route path="/echarts">
+                  <Echarts />
                 </Route>
                 <Route path="*">
                   <NoMatch />
