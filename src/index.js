@@ -1,7 +1,7 @@
 /*
  * @Author: Li Jian
  * @Date: 2021-02-23 09:23:16
- * @LastEditTime: 2021-02-25 10:47:01
+ * @LastEditTime: 2021-02-25 13:21:39
  * @LastEditors: Li Jian
  */
 import React from 'react';
@@ -12,6 +12,11 @@ import reportWebVitals from './reportWebVitals';
 
 import store from './store/store.jsx';
 import { Provider } from 'react-redux';
+
+// if (process.env.NODE_ENV === 'development') {
+require('./mock/index');
+// import './mock/index';
+// }
 
 ReactDOM.render(
   // <React.StrictMode>
