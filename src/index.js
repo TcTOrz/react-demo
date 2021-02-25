@@ -1,16 +1,16 @@
 /*
  * @Author: Li Jian
  * @Date: 2021-02-23 09:23:16
- * @LastEditTime: 2021-02-24 10:37:44
+ * @LastEditTime: 2021-02-25 10:47:01
  * @LastEditors: Li Jian
  */
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.less';
-import App from './App';
+import App from './App.jsx';
 import reportWebVitals from './reportWebVitals';
 
-import store from './app/store';
+import store from './store/store.jsx';
 import { Provider } from 'react-redux';
 
 ReactDOM.render(

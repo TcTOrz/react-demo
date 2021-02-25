@@ -1,7 +1,7 @@
 /*
  * @Author: Li Jian
  * @Date: 2021-02-23 14:41:40
- * @LastEditTime: 2021-02-24 10:35:24
+ * @LastEditTime: 2021-02-25 10:48:41
  * @LastEditors: Li Jian
  */
 import React, { useState } from 'react';
@@ -12,7 +12,7 @@ import {
   incrementByAmount,
   incrementAsync,
   selectCount,
-} from '../store/CounterSlice';
+} from '../store/CounterSlice.jsx';
 import styles from './Counter.module.css';
 
 export default function Home() {

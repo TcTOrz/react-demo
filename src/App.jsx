@@ -1,7 +1,7 @@
 /*
  * @Author: Li Jian
  * @Date: 2021-02-23 09:23:16
- * @LastEditTime: 2021-02-23 16:11:40
+ * @LastEditTime: 2021-02-25 10:45:55
  * @LastEditors: Li Jian
  */
 import './App.less';
@@ -13,11 +13,11 @@ import {
   useLocation,
 } from 'react-router-dom';
 import { Layout } from "antd";
-import HeaderView from './views/Header';
-import SiderView from './views/Sider';
-import Home from './views/Home';
-import About from './views/About';
-import Dashboard from './views/Dashboard';
+import HeaderView from './views/Header.jsx';
+import SiderView from './views/Sider.jsx';
+import Home from './views/Home.jsx';
+import About from './views/About.jsx';
+import Dashboard from './views/Dashboard.jsx';
 
 const { Header, Content, Sider } = Layout;
 
